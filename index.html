@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokemonDatabase.com</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="image-container">
+        <img src="Poki.png" alt="Banner Image" class="banner-image">
+    </div>
+    <nav class="navbar">
+        <h2 class="logo"><a href="#"><img src="pokiimg.png" class="Image"></a></h2>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul>
+            <li><a href="index.html">Pokedex Data</a></li>
+            <li><a href="about.html">Pokemon Attacks</a></li>
+            <li><a href="services.html">Pokemon Characters</a></li>
+            <li><a href="contact.html">Pokemon Types</a></li>
+        </ul>
+    </nav>
+    <br>
+    <section class="hero-section1">
+        <div class="content-wrapper">
+            <div class="img1">
+                <img src="banner.avif" alt="hero image1" />
+            </div>
+            <div class="hero1">
+                <h2>1. THE WORLD OF POKEMON DATABASE</h2>
+                <p>
+                    The Pokémon Database is a comprehensive and dynamic repository that brings the vibrant world of Pokémon 
+                    to life. It serves as a treasure trove of information for fans, trainers, and enthusiasts, offering 
+                    detailed data on Pokémon species, moves, abilities, habitats, evolution chains, and much more. Organized 
+                    in a user-friendly format, the database is an indispensable tool for strategizing battles, building 
+                    competitive teams, and exploring the lore of the Pokémon universe. With real-time updates to include 
+                    data from the latest games, such as new Pokémon, regions, and mechanics, the Pokémon Database bridges 
+                    the gap between casual enjoyment and professional-level play. It is not only a hub for learning but also 
+                    a community-driven platform that fosters a shared passion for the beloved Pokémon franchise.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="hero-section2">
+        <div class="content-wrapper">
+            <div class="hero2">
+                <h2>2. IMPORTANCE OF POKEDEX</h2>
+                <p>
+                    The Pokédex is an indispensable tool in the Pokémon universe, serving as a comprehensive encyclopedia 
+                    for trainers and enthusiasts alike. It plays a pivotal role in documenting and cataloging every Pokémon 
+                    species encountered, providing detailed information on their attributes, abilities, habitats, and 
+                    evolution processes. Beyond its function as a knowledge repository, the Pokédex fosters a deeper 
+                    connection between trainers and their Pokémon, encouraging exploration and discovery. With its ability 
+                    to offer insights into regional variations, battle strategies, and unique characteristics, the Pokédex 
+                    is not just a guide but also an inspiration for trainers to embark on adventures and achieve mastery in 
+                    the world of Pokémon.
+                </p>
+            </div>
+            <div class="img2">
+                <img src="pokedex.jpg" alt="hero image2" />
+            </div>
+        </div>
+    </section>
+    <section class="hero-section2">
+        <div class="content-wrapper">
+            <div class="hero2">
+                <h2>3. INVENTION OF FIRST POKEDEX</h2>
+                <p>
+                    The invention of the first Pokédex marked a revolutionary milestone in the Pokémon universe, 
+                    transforming the way trainers interact with the world of Pokémon. Created by the brilliant Professor 
+                    Oak, the Pokédex is a high-tech device designed to catalog and provide detailed information about 
+                    every Pokémon encountered. This innovative tool serves as a digital encyclopedia, equipping trainers 
+                    with vital data on Pokémon species, habitats, abilities, and evolutionary paths. The introduction of 
+                    the Pokédex not only enhanced the immersive experience for trainers but also symbolized the spirit of 
+                    exploration and discovery that defines the Pokémon journey. Its iconic design and functionality have 
+                    evolved over generations, adapting to new regions and technologies, yet it remains a cornerstone of 
+                    the Pokémon adventure, inspiring millions to "catch 'em all."
+                </p>
+            </div>
+            <div class="img2">
+                <img src="dataset-card.jpg" alt="hero image2" />
+            </div>
+        </div>
+    </section> 
+    <section class="hero-section1">
+        <div class="content-wrapper">
+            <div class="img1">
+                <img src="pokefan.jpg" alt="hero image1" />
+            </div>
+            <div class="hero1">
+                <h2>4. FEATURES OF THE POKEDEX</h2>
+                <p>
+                    The Pokédex is an indispensable tool for every Pokémon Trainer, packed with an array of features 
+                    designed to enhance the Pokémon experience. At its core, the Pokédex provides detailed information 
+                    about each Pokémon, including their type, abilities, stats, and evolutionary stages. It also offers 
+                    insights into their habitats, move sets, and region-specific availability, making it a valuable 
+                    resource for exploration and strategy. Advanced features like search and filtering capabilities allow 
+                    trainers to quickly find Pokémon by attributes such as type or generation. Some Pokédex versions 
+                    include a built-in tracker for capturing Pokémon in the wild, while others offer real-time updates on 
+                    events and new additions to the Pokémon universe. With its sleek interface and comprehensive database, 
+                    the Pokédex seamlessly blends functionality with user-friendly design, making it an essential 
+                    companion for beginners and seasoned trainers alike.
+                </p>
+            </div>
+        </div>
+    </section>   
+    <center>
+        <section class="hero-section-evolution">
+            <div class="content-wrapper-evolution">
+                <div class="text-evolution">
+                    <h2>5. EVOLUTION OF THE POKEDEX</h2>
+                    <p>
+                        The Pokédex has evolved significantly since its introduction as a simple in-game tool for cataloging 
+                        Pokémon. Initially designed to record basic information like species, type, and location, it has 
+                        transformed into a sophisticated device capable of providing in-depth data on abilities, evolution 
+                        paths, battle statistics, and regional variants. Over the years, advancements in technology within 
+                        the Pokémon universe have mirrored real-world innovations, incorporating features like voice 
+                        recognition, augmented reality, and connectivity to global Pokémon networks.
+                    </p>
+                </div>
+                <div class="image-evolution">
+                    <img src="pokegfg.png" alt="Pokedex evolution image" />
+                </div>
+            </div>
+        </section>        
+    </center>   
+</body>
+<script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.navbar ul');
+        navLinks.classList.toggle('active');
+    }
+</script>
+</html>
