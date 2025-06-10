@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 10px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar .logo img {
+  height: 50px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #ffe082;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero-section1,
+.hero-section2,
+.hero-section-evolution {
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.content-wrapper,
+.content-wrapper-evolution {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero1, .hero2, .text-evolution {
+  flex: 1 1 500px;
+  padding: 20px;
+}
+
+.hero1 h2, 
+.hero2 h2, 
+.text-evolution h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #e53935;
+}
+
+.hero1 p, 
+.hero2 p, 
+.text-evolution p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.img1, .img2, .image-evolution {
+  flex: 1 1 400px;
+  padding: 20px;
+}
+
+.img1 img, 
+.img2 img, 
+.image-evolution img {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid #000000
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    display: none;
+    background-color: #ef5350;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+  }
+
+  .navbar ul.active {
+    display: flex;
+  }
+
+  .navbar ul li {
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
