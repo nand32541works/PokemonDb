@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokemonDatabase.com</title>
+    <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+    <div class="image-container">
+        <img src="pokiimg.png" alt="Banner Image" class="banner-image">
+    </div>
+    <nav class="navbar">
+        <h2 class="logo"><a href="#"><img src="Poki.png " class="Image"></a></h2>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul>
+            <li><a href="index.html">Pokedex Data</a></li>
+            <li><a href="types.html">Pokemon Types</a></li>
+        </ul>
+    </nav>
+    <section class="hero-section1">
+        <div class="content-wrapper">
+            <div class="hero1">
+                <h2>POKÉMON TYPES & DETAILS</h2>
+                <p>
+                    There are 18 official Pokémon types, each representing elemental properties and 
+                    battle characteristics. Each type affects battle strengths, weaknesses, move 
+                    effectiveness, and resistances. Here’s a breakdown of each type and what makes it 
+                    unique:
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="hero-section1">
+        <div class="content">
+            <div class="hero3">
+                <div class="img3">
+                    <img src="Fairy.png" alt="Normal Type Pokémon" />
+                </div>
+                <div class="text3">
+                    <h2 style="color: rgb(255, 151, 169);">Fairy Type</h2>
+                    <button class="type-btn18"><a href="fairy.html">Fairy-Type Pokémon</a></button>
+                    <h2 style="margin-top: 20px; color: rgb(255, 151, 169);">Pokémon Attack Moves</h2>
+                    <section class="attack-table-section">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="background-color: rgb(255, 151, 169); border: 1px solid rgb(99, 99, 99);">Move Name</th>
+                                    <th style="background-color: rgb(255, 151, 169); border: 1px solid rgb(99, 99, 99);">Type</th>
+                                    <th style="background-color: rgb(255, 151, 169); border: 1px solid rgb(99, 99, 99);">Power</th>
+                                    <th style="background-color: rgb(255, 151, 169); border: 1px solid rgb(99, 99, 99);">Accuracy</th>
+                                    <th style="background-color: rgb(255, 151, 169); border: 1px solid rgb(99, 99, 99);">Category</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Play Rough</td>
+                                    <td class="attack-type">Fairy</td>
+                                    <td>90</td>
+                                    <td>90%</td>
+                                    <td>Physical</td>
+                                </tr>
+                                <tr>
+                                    <td>Disarming Voice</td>
+                                    <td class="attack-type">Fairy</td>
+                                    <td>40</td>
+                                    <td>∞</td>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <td>Misty Explosion</td>
+                                    <td class="attack-type">Fairy</td>
+                                    <td>100</td>
+                                    <td>100%</td>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <td>Moonblast</td>
+                                    <td class="attack-type">Fairy</td>
+                                    <td>95</td>
+                                    <td>100%</td>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <td>Nature's Madness</td>
+                                    <td class="attack-type">Fairy</td>
+                                    <td>—</td>
+                                    <td>90%</td>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <td>Alluring Voice</td>
+                                    <td class="attack-type">Fairy</td>
+                                    <td>80</td>
+                                    <td>100%</td>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <td>Fairy Wind</td>
+                                    <td class="attack-type">Fairy</td>
+                                    <td>40</td>
+                                    <td>100%</td>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <td>Light of Ruin</td>
+                                    <td class="attack-type">Fairy</td>
+                                    <td>140</td>
+                                    <td>90%</td>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <td>Dazzling Gleam</td>
+                                    <td class="attack-type">Fairy</td>
+                                    <td>80</td>
+                                    <td>100%</td>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <td>Draining Kiss</td>
+                                    <td class="attack-type">Fairy</td>
+                                    <td>50</td>
+                                    <td>100%</td>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <td>Charm</td>
+                                    <td class="attack-type">Fairy</td>
+                                    <td>—</td>
+                                    <td>100%</td>
+                                    <td>Status</td>
+                                </tr>
+                                <tr>
+                                    <td>Strange Steam</td>
+                                    <td class="attack-type">Fairy</td>
+                                    <td>90</td>
+                                    <td>95%</td>
+                                    <td>Special</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.navbar ul');
+        navLinks.classList.toggle('active');
+    }
+</script>
+</html>

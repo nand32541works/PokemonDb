@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokemonDatabase.com</title>
+    <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+    <div class="image-container">
+        <img src="pokiimg.png" alt="Banner Image" class="banner-image">
+    </div>
+    <nav class="navbar">
+        <h2 class="logo"><a href="#"><img src="Poki.png " class="Image"></a></h2>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul>
+            <li><a href="index.html">Pokedex Data</a></li>
+            <li><a href="types.html">Pokemon Types</a></li>
+        </ul>
+    </nav>
+    <section class="hero-section1">
+        <div class="content-wrapper">
+            <div class="hero1">
+                <h2>POKÉMON TYPES & DETAILS</h2>
+                <p>
+                    There are 18 official Pokémon types, each representing elemental properties and 
+                    battle characteristics. Each type affects battle strengths, weaknesses, move 
+                    effectiveness, and resistances. Here’s a breakdown of each type and what makes it 
+                    unique:
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="hero-section1">
+        <div class="content">
+            <div class="hero3">
+                <div class="img3">
+                    <img src="Ground.png" alt="Normal Type Pokémon" />
+                </div>
+                <div class="text3">
+                    <h2 style="color: rgb(221, 63, 0);">Ground Type</h2>
+                    <button class="type-btn8"><a href="ground.html">Ground-Type Pokémon</a></button>
+                    <h2 style="margin-top: 20px; color: rgb(221, 63, 0);">Pokémon Attack Moves</h2>
+                    <section class="attack-table-section">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="background-color: rgb(221, 63, 0);">Move Name</th>
+                                    <th style="background-color: rgb(221, 63, 0);">Type</th>
+                                    <th style="background-color: rgb(221, 63, 0);">Power</th>
+                                    <th style="background-color: rgb(221, 63, 0);">Accuracy</th>
+                                    <th style="background-color: rgb(221, 63, 0);">Category</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Bulldoze</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>60</td>
+                                    <td>100%</td>
+                                    <td>Physical</td>
+                                </tr>
+                                <tr>
+                                    <td>Dig</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>80</td>
+                                    <td>100%</td>
+                                    <td>Physical</td>
+                                </tr>
+                                <tr>
+                                    <td>Earth Power</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>90</td>
+                                    <td>100%</td>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <td>Drill Run</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>80</td>
+                                    <td>95%</td>
+                                    <td>Physical</td>
+                                </tr>
+                                <tr>
+                                    <td>Stomping Tantrum</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>35</td>
+                                    <td>85%</td>
+                                    <td>Physical</td>
+                                </tr>
+                                <tr>
+                                    <td>Scorching Sands</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>70</td>
+                                    <td>100%</td>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <td>Sand Tomb</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>35</td>
+                                    <td>85%</td>
+                                    <td>Physical</td>
+                                </tr>
+                                <tr>
+                                    <td>Mud Bomb</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>65</td>
+                                    <td>85%</td>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <td>Earthquake</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>100</td>
+                                    <td>100%</td>
+                                    <td>Physical</td>
+                                </tr>
+                                <tr>
+                                    <td>High Horsepower</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>95</td>
+                                    <td>95%</td>
+                                    <td>Physical</td>
+                                </tr>
+                                <tr>
+                                    <td>Mud Shot</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>55</td>
+                                    <td>95%</td>
+                                    <td>Special</td>
+                                </tr>
+                                <tr>
+                                    <td>Headlong Rush</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>120</td>
+                                    <td>100%</td>
+                                    <td>Physical</td>
+                                </tr>
+                                <tr>
+                                    <td>Bone Club</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>65</td>
+                                    <td>85%</td>
+                                    <td>Physical</td>
+                                </tr>
+                                <tr>
+                                    <td>Sandsear Storm</td>
+                                    <td class="attack-type">Ground</td>
+                                    <td>100</td>
+                                    <td>80%</td>
+                                    <td>Special</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.navbar ul');
+        navLinks.classList.toggle('active');
+    }
+</script>
+</html>
